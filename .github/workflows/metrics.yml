@@ -30,6 +30,7 @@ jobs:
       name: production
     permissions:
       contents: write
+      issues: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
